@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - DataSource driver using RSS files
 Summary(pl):	%{_pearname} - sterownik DataSource do plików RSS
 Name:		php-pear-%{_pearname}
-Version:	0.1.0
-Release:	2
+Version:	0.1.1
+Release:	1
 License:	PHP License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	cdde39675c40e059281b5a727df23d8a
+# Source0-md5:	a62666d32d15693e3c6d5d6028f39e62
 URL:		http://pear.php.net/package/Structures_DataGrid_DataSource_RSS/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
