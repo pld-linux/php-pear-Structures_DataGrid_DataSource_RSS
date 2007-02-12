@@ -4,7 +4,7 @@
 %define		_status		beta
 %define		_pearname	Structures_DataGrid_DataSource_RSS
 Summary:	%{_pearname} - DataSource driver using RSS files
-Summary(pl):	%{_pearname} - sterownik DataSource do plików RSS
+Summary(pl.UTF-8):   %{_pearname} - sterownik DataSource do plikÃ³w RSS
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
 Release:	1
@@ -28,8 +28,8 @@ This is a DataSource driver for Structures_DataGrid using RSS files.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Ten pakiet dostarcza sterownik do plików RSS dla Structures_DataGrid.
+%description -l pl.UTF-8
+Ten pakiet dostarcza sterownik do plikÃ³w RSS dla Structures_DataGrid.
 
 Ta klasa ma w PEAR status: %{_status}.
 
