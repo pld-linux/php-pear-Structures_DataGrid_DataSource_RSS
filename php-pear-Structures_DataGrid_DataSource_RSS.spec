@@ -4,7 +4,7 @@
 %define		_status		beta
 %define		_pearname	Structures_DataGrid_DataSource_RSS
 Summary:	%{_pearname} - DataSource driver using RSS files
-Summary(pl.UTF-8):   %{_pearname} - sterownik DataSource do plików RSS
+Summary(pl.UTF-8):	%{_pearname} - sterownik DataSource do plików RSS
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
 Release:	1
