@@ -1,19 +1,17 @@
 %include	/usr/lib/rpm/macros.php
-%define		_class		Structures
-%define		_subclass	DataGrid_DataSource_RSS
 %define		_status		beta
 %define		_pearname	Structures_DataGrid_DataSource_RSS
 Summary:	%{_pearname} - DataSource driver using RSS files
 Summary(pl.UTF-8):	%{_pearname} - sterownik DataSource do plików RSS
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
-Release:	2
+Release:	3
 License:	PHP License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	a62666d32d15693e3c6d5d6028f39e62
 URL:		http://pear.php.net/package/Structures_DataGrid_DataSource_RSS/
-BuildRequires:	php-pear-PEAR
+BuildRequires:	php-pear-PEAR >= 1:1.4.9
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
 Requires:	php-pear-PEAR-core >= 1:1.4.9
